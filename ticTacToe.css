@@ -1,6 +1,6 @@
 body {
 	font-family: Arial;
-	width: 1050px;
+	width: 1650px;
 	justify-content: center;
 	align-items: center;
 	display: flex;
@@ -16,10 +16,9 @@ body {
 	font-size: 72px;
 	width: 100%;
 	text-align: center;
+
 	color: white;
-
-
-
+	width: 1400px;
 }
 
 section{
@@ -27,8 +26,8 @@ section{
 	height: 700px;
 	width: 910px;
 	margin-bottom: 350px;
-	margin-left:auto;
-	margin-right: auto;
+	margin-left:0;
+	margin-right: 0;
 	background: #EEE;
 }
 
@@ -60,17 +59,14 @@ button {
 	cursor: pointer;
 }
 
-@media all and  (min-width: 600px){
+@media all and  (min-width: 800px){
 
-.game-title {
-	margin-top: 100px;
-	font-size: 70px;
-	padding: 21px;
-}
 
-section{
-	margin: 0px 50px 0px 50px;
-	width: 1080px;
-}
+
+
+	section{
+		
+		width: 1220px;
+	}
 	
 }
